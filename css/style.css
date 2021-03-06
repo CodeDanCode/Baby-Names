@@ -1,0 +1,144 @@
+/*
+Daniel Leach
+Intro to Internet Computing
+COP 3813
+
+Project 6 PHP Baby Names Form Processing
+
+*/
+
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding:0;
+    margin:0;
+   
+}
+
+/* table formating */
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+/* jumbotron formating */
+
+.jumbotron{
+
+    position: relative;
+    height: 400px;
+    background:url('../img/baby.jpg') no-repeat center;
+    background-size:cover;
+    margin-bottom: 0;
+    background-color: white;
+    
+    
+}
+
+#jumbotext{
+    text-align: center;
+    color:rgb(122, 176, 226);
+    margin-top: 175px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+}
+ 
+/* form submition */
+
+#submitForm{
+    width:50%;
+    float:center;
+}
+
+#suggest{
+    /* width:80%; */
+    float: right;
+    height: 50px;
+    outline: none !important; 
+    box-shadow: none;
+    /* border: 3px solid blue; */
+}
+#buttons{
+    
+    padding-left:0;
+    margin-left:0;
+}
+
+.Boybutton{
+    display: block;
+    background-color: blue;
+    float: right;
+    font-weight: bold;
+    color:white;
+    margin-left:3px;
+}
+.Girlbutton{
+    display: block;
+    background-color: pink;
+     float:right; 
+    font-weight: bold;
+    
+
+}
+
+/* submition output */
+
+h3 {
+    text-align: center;
+}
+#maleTable{
+    background-color:white;
+    width: 45%;    
+    border:3px solid blue;
+}
+
+#femaleTable{
+    background-color:white;
+    width:45%;
+    border:3px solid rgb(250, 131, 151);
+}
+
+
+
+/* 2017 babnames table */
+
+h2{
+    text-align: center;
+    margin: 45px;
+}
+#girlsTable{
+    background:white;
+    width:45%;
+    float:right;
+    margin-right:5%;
+    background-color:rgb(250, 131, 151);
+    font-weight: bold;
+}
+
+#boysTable{
+    background:white;
+    width:45%;
+    float:left;
+    margin-left:5%;
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    display: inline;
+    text-align: center;
+}
